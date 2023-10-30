@@ -50,4 +50,13 @@ NSLOOKUP (Name Server Lookup) is a command-line tool used to query DNS servers t
 
 TCPdump is a command-line packet analyzer tool used in network troubleshooting and monitoring. It allows users to capture and display network traffic in real-time. TCPdump is capable of capturing packets on a network interface, and it can filter and display the captured data based on various criteria such as source or destination IP addresses, port numbers, and more. This tool is essential for diagnosing network issues, security monitoring, and understanding network traffic patterns. It provides insights into the communication happening on a network and is often used by network administrators and security professionals to analyze, debug, and investigate network-related problems.
 
+Electronic Code Book (ECB) – 
+Electronic code book is the easiest block cipher mode of functioning. It is easier because of direct encryption of each block of input plaintext and output is in form of blocks of encrypted ciphertext. Generally, if a message is larger than b bits in size, it can be broken down into a bunch of blocks and the procedure is repeated.
+
+Cipher Block Chaining – 
+Cipher block chaining or CBC is an advancement made on ECB since ECB compromises some security requirements. In CBC, the previous cipher block is given as input to the next encryption algorithm after XOR with the original plaintext block.
+
+Cipher Feedback Mode (CFB) – 
+In this mode the cipher is given as feedback to the next block of encryption with some new specifications: first, an initial vector IV is used for first encryption and output bits are divided as a set of s and b-s bits.The left-hand side s bits are selected along with plaintext bits to which an XOR operation is applied. The result is given as input to a shift register having b-s bits to lhs,s bits to rhs and the process continues. 
+
 ```
