@@ -14,15 +14,9 @@ A Denial of Service (DoS) attack is a malicious attempt to disrupt the normal fu
 3. SMURF Attack: A SMURF attack is a type of amplification attack that exploits the ICMP protocol. The attacker sends ICMP echo requests (pings) with a forged source IP address of the victim to multiple hosts on a network. These hosts, believing the victim's IP address is the source, respond to the ICMP echo requests by sending ICMP echo replies (pings) to the victim's IP address. This can result in a massive amount of network traffic directed at the victim, potentially causing a DoS condition
 
 
-
-
 A firewall is a network security device or software that is designed to monitor and control incoming and outgoing network traffic based on predetermined security rules. Its primary purpose is to establish a barrier between a trusted internal network and untrusted external networks, such as the internet, in order to protect the internal network from unauthorized access, cyberattacks, and potential security threats. Firewalls can be implemented in various forms, including hardware appliances, software applications, or as a combination of both. They can filter traffic based on criteria such as IP addresses, port numbers, and application protocols.
 
 IPtables, on the other hand, is a specific software firewall tool used in Linux-based operating systems. It is part of the Netfilter project and is used to configure and manage packet filtering and network address translation (NAT) rules in the Linux kernel. IPtables allows system administrators to define rules for controlling network traffic, which can be used to set up firewalls, filter packets, and perform other network-related tasks. IPtables provides a powerful and flexible way to control network traffic on a Linux system, making it a crucial component for securing and managing network connectivity on Linux servers and devices. It can be used to create rules for packet filtering, port forwarding, and other network-related functions.
-
-
-
-
 
 
 Nmap, short for Network Mapper, is a robust and open-source network scanning tool widely used for network exploration and security auditing. With its extensive set of features, Nmap enables users to discover hosts, identify open ports, determine running services, and even perform OS fingerprinting. It empowers network administrators to assess the security of their systems and assists security professionals in penetration testing and vulnerability assessment. Nmap's flexibility and scripting capabilities make it a versatile tool for in-depth network analysis, ensuring that networks are well-protected and resilient against potential threats.
