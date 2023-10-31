@@ -1,11 +1,11 @@
 ```
-Assignment 1 - basic html
+Assignment 1 - Basic html
 
-Assignment 2 - css
+Assignment 2 - CSS
 
-Assignment 3 - bootstrap 
+Assignment 3 - Bootstrap 
 
-Assignment 4 - conditional statements, loops and functions , inheritance , iterators and generators
+Assignment 4 - Conditional statements, loops and functions , inheritance , iterators and generators
 
 Assignment 5 - Arrow functions, DOM manipulation and CSS manipulations implement the concept of promise , fetch , asynchronous javascript
 
