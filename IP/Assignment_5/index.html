@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>DOM and CSS Manipulation Example</h1>
+    
+    <p id="target-paragraph">This is a paragraph.</p>
+    <p>Click the first button to dynamically add the 'Change Content & Style' button.</p>
+
+    <button id="add-button">Add Button</button>
+
+    <script>
+        var addButton = document.getElementById("add-button");
+
+        // Add a click event listener to the "Add Button" button
+        addButton.addEventListener("click", function () {
+            // Create the "Change Content & Style" button
+            var changeButton = document.createElement("button");
+            changeButton.id = "change-button";
+            changeButton.textContent = "Change Content & Style";
+
+            // Append the "Change Content & Style" button to the body
+            document.body.appendChild(changeButton);
+
+            // Get references to the paragraph and the newly added "Change Content & Style" button
+            var paragraph = document.getElementById("target-paragraph");
+            var button = document.getElementById("change-button");
+
+            // Add a click event listener to the "Change Content & Style" button
+            button.addEventListener("click", function () {
+                // Change the content of the paragraph
+                paragraph.textContent = "Content has been changed!";
+                
+                // Change the background color of the page
+                document.body.style.backgroundColor = "lightblue";
+                
+                // Change the style of the paragraph
+                paragraph.style.fontSize = "24px";
+                paragraph.style.fontWeight = "bold";
+                paragraph.style.color = "green";
+            });
+        });
+    </script>
+</body>
+</html>
